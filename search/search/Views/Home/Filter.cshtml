@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Filter";
+}
+<link href="~/Scripts/Search.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/Search.js"></script>
+
+<h2>Filter</h2>
+<table>
+    <tr>
+        <td><p><input type="text" class="quicksearch" placeholder="Search" /></p></td>
+        <td>
+            Make
+        </td>
+        <td>
+            <select id="make"></select>
+        </td>
+    <td></td>
+        <td>Model</td>
+        <td>
+            <select id="model"></select>
+        </td>
+        <td><p style="color:red;font-style:italic">Please bear with Website, Paging is yet to be done and as the database is too big it takes few seconds to load all cars</p></td>
+    </tr>
+</table>
+<div class="grid" id="grid"></div>

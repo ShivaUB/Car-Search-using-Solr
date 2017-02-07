@@ -1,0 +1,46 @@
+﻿* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+
+
+.grid {
+    width:1053px;
+    
+  border: 1px solid #333;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+table { 
+  border-spacing: 10px; 
+} 
